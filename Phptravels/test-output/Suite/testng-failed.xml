@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Registration(failed)">
+    <classes>
+      <class name="Automation.Phptravels.Testcase_4">
+        <methods>
+          <include name="gettxt"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- Automation.Phptravels.Testcase_4 -->
+      <class name="Automation.Phptravels.Testcase_3">
+        <methods>
+          <include name="Launch"/>
+          <include name="gettxt"/>
+        </methods>
+      </class> <!-- Automation.Phptravels.Testcase_3 -->
+      <class name="Automation.Phptravels.Testcase_1">
+        <methods>
+          <include name="Launch"/>
+          <include name="userRegistration"/>
+          <include name="gettxt"/>
+        </methods>
+      </class> <!-- Automation.Phptravels.Testcase_1 -->
+      <class name="Automation.Phptravels.TestCase_2">
+        <methods>
+          <include name="gettxt"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- Automation.Phptravels.TestCase_2 -->
+      <class name="Automation.Phptravels.Testcase_5">
+        <methods>
+          <include name="Launch"/>
+          <include name="gettxt"/>
+        </methods>
+      </class> <!-- Automation.Phptravels.Testcase_5 -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [Suite] -->
